@@ -1,0 +1,15 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+client_secret*.json
+
+# Local n8n/runtime data
+.n8n/
+node_modules/
+.DS_Store
+Thumbs.db
+
