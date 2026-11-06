@@ -16,7 +16,7 @@ A 119-node n8n workflow for capturing and qualifying inbound leads, generating a
 
 1. Import the workflow JSON into n8n.
 2. Assign your own Google Sheets and Gmail credentials. Credential bindings were removed from this sanitized export.
-3. Configure the Gemini HTTP authentication credential, Google Sheet references, owner notification address, booking URL, and n8n base URL.
+3. Replace `REPLACE_WITH_GOOGLE_API_KEY` in the `x-goog-api-key` headers with your Gemini API key (or configure equivalent n8n credential expressions). Set the Google Sheet references, owner notification address, booking URL, and n8n base URL.
 4. Review webhook paths, approval-token handling, follow-up schedule, email content, and Gmail trigger settings.
 5. Test with a dedicated sheet and test mailbox before enabling any automatic send path.
 
